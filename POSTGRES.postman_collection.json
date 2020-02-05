@@ -13,7 +13,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
@@ -27,14 +27,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:7777/purchase",
+					"raw": "http://localhost:7777/newproduct",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "7777",
 					"path": [
-						"purchase"
+						"newproduct"
 					]
 				}
 			},
@@ -48,7 +48,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
@@ -83,7 +83,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
@@ -118,7 +118,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
@@ -153,7 +153,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
@@ -181,20 +181,20 @@
 			"response": []
 		},
 		{
-			"name": "Buy fake item Osetr (see description)",
+			"name": "Buy fake item Crab(see description)",
 			"request": {
 				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Осетр\",\n    \"quantity\": 8,\n    \"buyDate\": \"2020-01-30\",\n    \"buyPrice\": 70\n}",
+					"raw": "{\n    \"name\": \"Белорусский краб\",\n    \"quantity\": 8,\n    \"buyDate\": \"2020-01-30\",\n    \"buyPrice\": 70\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -224,7 +224,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
@@ -259,7 +259,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
@@ -297,7 +297,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
@@ -335,7 +335,7 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
+						"value": "application/json",
 						"type": "text"
 					}
 				],
