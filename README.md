@@ -1,7 +1,7 @@
 # HiberWarehouse
  Warehouse management system
  
-This DB-API is my test project for "https://www.moysklad.ru/"
+This DB-API is my test project for www.moysklad.ru/
 
 DB is run on the basis of POSTGRES DB, Hibernate Entity Manager and Spark Java, responsible for server-API manipulations. Besides, Jackson JSON parser and other staff is used.
 
